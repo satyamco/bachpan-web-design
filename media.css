@@ -1,0 +1,168 @@
+@media (max-width:1040px) {
+
+    /* navbar  */
+    .menu{
+        display: block;
+        
+    }
+    .navitem{
+        display: none;
+    }
+    
+    /* hero section */
+    .hero-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .hc-text{
+        text-align: center;
+        width: 80%;
+    }
+    .hc-text h1{
+        font-size: 44px;
+    }
+    .hc-text p{
+        /* font-size: 18px; */
+        width: auto;
+
+    }
+    .hc-image{
+        text-align: center;
+        width: 75%;
+    }
+
+
+    /* about section */
+    .about-cards{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .about-text{
+        max-width: 90%;
+        padding-top: 15px;
+    }
+    .about-text h2{
+        font-size: 36px;
+    }
+    .about-img{
+        width: 80%;
+    }
+    .about-cards:nth-child(1){
+        flex-direction: column-reverse;
+    }
+    .about-cards:nth-child(2){
+        flex-direction: column;
+    }
+    .about-cards:nth-child(3){
+        flex-direction: column-reverse;
+    }
+    
+    /* countribute section */
+
+
+    .contribute-cards:nth-child(1){
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .contribute-cards:nth-child(2){
+        flex-direction: column-reverse;
+        padding-bottom: 30px;
+    }
+    .contribute-cards:nth-child(3){
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    /* success stories */
+    .stories p{
+        /* padding: 20px 40px; */
+        font-size: 18px;
+
+    }
+
+    /* footer section */
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .logo-div{
+        font-size: 26px;
+    }
+    
+    /* hero section */
+    .hc-text{
+        width: 100%;
+    }
+    .hc-text h1{
+        font-size: 36px;
+    }
+    .hc-text p{
+        padding-block: 14px;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .hc-text button{
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+    .hc-image{
+        text-align: center;
+        width: 100%;
+    }
+
+
+    /* about section */
+    .about-cards{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .about-text{
+        max-width: 100%;
+        padding-top: 15px;
+    }
+    .about-text h2{
+        font-size: 28px;
+    }
+    .about-text p{
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-all-cards{
+        padding-block: 8px;
+    }
+
+    /* success stories */
+    .stories p{
+        padding: 20px 36px;
+        font-size: 16px;
+
+    }
+    /* cta section */
+    .cta h4{
+        font-size: 26px;
+    }
+    .cta p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    /* footer section */
+    .footer-content{
+        padding-bottom: 50px;
+    }
+    .footer-content div{
+        padding-block: 20px;
+    }
+
+}   
